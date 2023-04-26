@@ -51,18 +51,7 @@ public class ConditionalProgramming {
 			
 		}
 		
-		int pin=1290;
-		int amount =9000;
-
-		if(pin==1290 && amount==9000) {
-			
-			System.out.println("Withdraw Cash");
-			
-			
-		} else {
-			System.out.println("Inside  Else If Block");
-			
-		}
+		
 		
 
 	}
