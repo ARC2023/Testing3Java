@@ -1,4 +1,4 @@
-package javaarc;
+package com.qa.java.datatypes;
 
 public class DataTypes {
 

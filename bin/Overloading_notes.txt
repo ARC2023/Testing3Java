@@ -1,0 +1,20 @@
+Polymorphism is same name and multiple form (Action / Behaviour)
+
+Type of Polymorphism
+1. Compile time / early binding / Static binding / Overloading
+2. Runtime / Late Binding / Dynamic Binding / Overriding
+
+
+1. Method Overloading: -
+ a. Method overloading is when the method name is same with different 
+    parameter/argument within same class
+ b. Or Same method and Different Signature - In same class we have multiple methods with same name
+    but different method signature	 
+ c. You cannot create a method inside a method
+ d. Duplicate method --> same method name and same number of argument not allowed
+ e. Can we can overload main method in java? --> YES
+ f. Can we achieve overloading by keeping method name and signature same and changing
+    return type? ---> NO
+ g. Can we achieve overloading by keeping method name and signature same and changing
+    variable name? ---> NO
+   

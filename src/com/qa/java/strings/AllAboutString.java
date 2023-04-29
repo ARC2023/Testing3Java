@@ -12,7 +12,7 @@ public class AllAboutString {
 		String sw = "Joe Biden is the president of the United States where the state is NY";
 
 		// Common operations on String
-/*
+		/*
 		System.out.println("Lenght of a string-->" + s.length());
 
 		System.out.println("Index of  e-->" + s.indexOf('e'));// 2

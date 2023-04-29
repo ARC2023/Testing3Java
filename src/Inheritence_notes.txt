@@ -1,0 +1,28 @@
+1. In java child can be dependent on parent but parent cannot be dependent on child or cannot 
+inherit properties of child
+2. In inheritance we have top to bottom approach only
+3. The object will always be of child class and properties will be of parent class
+4. Types of Inheritance 
+  a. Single
+  b. Multiple
+  c. Multilevel
+  d. Hybrid
+  e. Hierarchical
+5. In java Inheritance can be applied at class level
+and interface level  
+ a. Class --> Class or Interface -->Interface then we use extends keywords 
+ b. Class --> Interface then we use implements
+ c. Interface --> Class this is not possible
+6. Multiple inheritance cannot be achieved at class level but can be achieved at 
+	interface level 
+7. Class: -
+	a. Single
+	b. Multilevel
+	c. Hierarchical
+8. Interface: -
+    a. Single
+	b. Multilevel
+	c. Hierarchical
+	d. Multiple
+
+ 
