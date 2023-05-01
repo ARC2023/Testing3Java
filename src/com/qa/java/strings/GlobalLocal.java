@@ -1,38 +1,32 @@
 package com.qa.java.strings;
 
 public class GlobalLocal {
-	
-	int mobileno;
-	
-	
-	
-	
-	
-	public int getMoney(int a) {
-		int atmpin=a;
-		
-		return atmpin;
-		
-	}	
-	
-	
-	
-	public void getGolf() {
-		mobileno=89;
-		atmpin;
-	}
-	
-	
-	
-	
-	
-	
-	
-	
 
-	public static void main(String[] args) {
-		
+	String FN;
+	String LN;
+	String Email;
+	int mobileNo;
+	String PAN;
+
+	public boolean getCustomerDetails(String PAN) {
+		FN="lkj";
+		LN="iuy";
+		return false;
 
 	}
 
+	public void saveNewCustomerData() {
+			Email="kjhg";
+			UN="kjjf";
+	}
+
+	public void setUIDPW() {
+		PAN="kljkgf";
+		String UN = "kjh";
+		String PW = "asdfggh";
+	}
+
+	
+	
+	
 }
