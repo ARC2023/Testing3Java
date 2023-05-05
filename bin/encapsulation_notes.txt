@@ -7,9 +7,9 @@ Encapsulation: -
    that it cannot be randomly accessed by other code outside class.
    
 Steps to incorporate encapsulation: -
-1. Use instance variable private
-2. Always publicly accessible methods and force calling these code to use use these methods instead of 
-   directly calling the instance variables
+1. Use instance variable as private
+2. Always publicly accessible methods and force calling these code to use use these methods 
+   instead of directly calling the instance variables
 3. Use naming conventions as get() and set() for these variables
    
      

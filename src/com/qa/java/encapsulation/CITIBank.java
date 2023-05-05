@@ -7,6 +7,7 @@ public class CITIBank {
 	private int pinATM = 2378;
 	private double availableBal = 90000;
 	
+	
 
 	public void UpdatePin(String name, int card, int Oldpin,int newPin) {
 		if (name.equals(custName) && card == cardNo && Oldpin == pinATM) {
