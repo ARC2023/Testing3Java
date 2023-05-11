@@ -24,11 +24,13 @@ public class CheckedException {
 			  String username = "rootgfg"; // MySQL credentials 
 			  String password = "gfg123";
 			  String query = "select *from students"; // query to be run
-			  Class.forName("com.mysql.cj.jdbc.Driver"); // Driver name con =
-			  DriverManager.getConnection(url, username, password);
-			  System.out.println("Connection Established successfully"); st =
-			  con.createStatement(); rs = st.executeQuery(query); // Execute query
-			  rs.next(); String name = rs.getString("name"); // Retrieve name from db
+			  Class.forName("com.mysql.cj.jdbc.Driver"); // Driver name 
+			  con =  DriverManager.getConnection(url, username, password);
+			  System.out.println("Connection Established successfully"); 
+			  st = con.createStatement(); 
+			  rs = st.executeQuery(query); // Execute query
+			  rs.next(); 
+			  String name = rs.getString("name"); // Retrieve name from db
 			  System.out.println(name); // Print result on console
 			 
 			System.out.println("Before Break");

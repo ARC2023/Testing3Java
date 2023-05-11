@@ -1,0 +1,19 @@
+#Method Overriding: - It is basically an ability to define a behavior which is 
+specific to that sub class.
+
+#Runtime Polymorphism / Late Binding / Dynamic Binding / Overriding
+
+#Method Overriding RULES: -
+1. Different classes with Inheritance applied 
+2. The Method name, Signature, Arguments and the return type must be same as 
+   of superclass method.
+3. The access level can be changed but can't be decreased.
+
+Q.) Can we change the return type of overridden method?
+A.) No and Yes
+
+No: - When the return type is primitive
+Yes: -When the return type is non-primitive or class name or Covariant
+
+What is Covariant: - When the return type are class Name and there is parent 
+child relationship between those classes
