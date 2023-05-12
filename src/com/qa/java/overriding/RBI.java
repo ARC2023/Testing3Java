@@ -19,5 +19,14 @@ public class RBI {
 		return 5;
 
 	}
+	
+	
+	public static final Number get() {
+		
+		System.out.println("Parent Class Static method");
+		return 5;
+
+	}
+	
 
 }

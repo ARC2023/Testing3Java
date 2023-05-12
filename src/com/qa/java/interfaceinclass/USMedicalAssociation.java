@@ -18,7 +18,7 @@ public interface USMedicalAssociation extends WHO{
 	
 	
 	public static void Parkinsons() {
-		System.out.println("Parkinsons");
+		System.out.println("Parkinsons Parent");
 		
 	}
 	

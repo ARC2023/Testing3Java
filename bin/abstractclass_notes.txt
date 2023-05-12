@@ -1,0 +1,18 @@
+1. Abstract keyword is use to make a class or method abstract( An abstract method is something 
+   where we only declare the method but not implementation)
+2. In abstract class we can create abstract as well as non abstract method
+3. Can I create object of abstract class ? Answer --> No
+4. We can create constructor of abstract class whereas in interface we cannot
+5. By creating the constructor of parent and child class and then by calling the
+   child class reference and child object we can call both constructor
+6. In java we can have abstract class without abstract method and at the same time we cannot 
+   instantiate the object of abstract class
+7. Variables declared are not static and final by default as in interface. Instead
+   we need to specifically mention the static and final keywords, in other words we can have 
+   final and static variables
+8. In abstract class we can have final as well as non final method but in interface we cannot 
+   have any final method 
+9. Final method in parent class not allowed to be overridden in child class
+10. multiple inheritance not allowed
+11. Through abstract class we can achieve partial abstraction(Abstraction-Hiding business implementation) 
+12. Abstract as well as non abstract method can be overridden in child class

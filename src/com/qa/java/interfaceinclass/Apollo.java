@@ -100,4 +100,8 @@ public class Apollo extends GlobalPatientData implements USMedicalAssociation, U
 		
 	}
 
+	public static void Parkinsons() {
+		System.out.println("Parkinsons Child");
+		
+	}
 }

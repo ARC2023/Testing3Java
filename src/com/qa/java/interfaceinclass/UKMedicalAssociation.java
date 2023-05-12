@@ -11,4 +11,9 @@ public interface UKMedicalAssociation extends WHO{
 	public void Dental();
 	
 	public void Covid(String country);
+	
+	
+	public UKMedicalAssociation() {
+		
+	}
 }

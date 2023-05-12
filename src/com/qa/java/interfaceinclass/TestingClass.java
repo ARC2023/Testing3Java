@@ -12,6 +12,10 @@ public class TestingClass {
 		UKMedicalAssociation uk= new Apollo();
 		IndianMedicalAssociation india= new Apollo();
 		
+		USMedicalAssociation.Parkinsons();
+		
+		
+		/*
 		try {
 		//Apollo uas=  new  USMedicalAssociation();
 		}catch (Exception e){
@@ -63,7 +67,7 @@ public class TestingClass {
 		ap.Gastro();
 		ap.getPatientList("USA");
 		
-
+*/
 	}
 
 }
