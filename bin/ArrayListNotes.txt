@@ -1,0 +1,36 @@
+1. Array is static and ArrayList is dynamic
+2. Array is indexed - use get method
+3. Negative indexing is not allowed in Java
+4. If using any index where data is not stored it will give index out of bound exception
+5. The moment you create a new arraylist JVM creates a list of 10 inputs as a Virtual Capacity in ArrayList
+6. Virtual Capacity in ArrayList can be changed by passing the new capacity in constructor
+7. Generics In ArrayList
+8. Iterate ArrayList 
+9. List with other collection -- Arrays as list
+10. Methods: -
+
+1. add - To assign value to list
+2. addAll - To merge two array list
+3. addAll - With Index - Merges two array from mentioned index
+4. remove - 
+	a. with index - Removes the element at the specified position in this list.Shifts any subsequent elements to the left (subtracts one from theirindices).
+	b. with object - Removes the first occurrence of the specified element from this list,if it is present. If the list does not contain the element, it is unchanged.
+	c. removeAll - Removes from this list all of its elements that are contained in the specified collection
+	d. removeIf - Removes all of the elements of this collection that satisfy the givenpredicate.
+5. clear - To empty the Array List
+6. Clone - This method return an instance of ArrayList which we need to type cast and assign to a new ArrayList where we want to clone
+7. contains - Checks and return true if the element is found in list (Parameter is single element)
+8. containsAll - return true if all the elements in one list is found in other list (Parameter is ArrayList)
+9. indexOf - return the index no of data stored in list
+10. LastIndexOf - Returns the index of the last occurrence of the specified element in this list or -1 if this list does not contain the element.
+11. size - Returns the size of ArrayList
+12. Arrays.asList() - To assign multiple value at one go by passing through constructor
+13. retainAll(Singleton and List) - Retains only the elements in this list that are contained in the specified collection. In other words, removes from this list allof its elements that are not contained in the specified collection.
+14. SubList - Returns a view of the portion of this list between the specified fromIndex, inclusive, and toIndex, exclusive. (If fromIndex and toIndex are equal, the returned list isempty.)
+15. toArray - Returns an array containing all of the elements in this listin proper sequence (from first to last element), with return type Object
+16. How to remove specific range of index from list - list.subList(from, to).clear();
+17. How to remove duplicate elements from list
+18. How to sort and compare
+19. How to compare two list and find additional element from list - removeAll()
+20. How to compare two list and find missing element from list - removeAll()
+21. How to compare and find common element - retainAll()
