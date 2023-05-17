@@ -39,7 +39,7 @@ public class ArrayListInSession {
 
 		// System.out.println(lister.get(2));
 
-		System.out.println("Size of Array -->" + lister.size());
+		//System.out.println("Size of Array -->" + lister.size());
 		ArrayList<String> temp = new ArrayList<>();
 		for (int i = 0; i < arl3.size(); i++) {
 
@@ -101,7 +101,7 @@ public class ArrayListInSession {
 		arl5.add("Lochna");
 		arl5.add("Sagar");
 		System.out.println(arl1.containsAll(arl5));
-*/
+
 		// 5. Arrays.asList
 		ArrayList<String> arl6 = new ArrayList<String>(
 				Arrays.asList("Sid", "Akshay", "Arjun", "Akshay", "Varun", "Akshay"));
@@ -120,7 +120,7 @@ public class ArrayListInSession {
 		
 		  System.out.println(arl6.lastIndexOf("Akshay"));
 		  System.out.println(arl6.lastIndexOf("Varun"));
-		 */
+		 
 		// 8.a Remove with index
 
 			
@@ -140,8 +140,139 @@ public class ArrayListInSession {
 			//System.out.println(arl6);
 			arl6.removeAll(arl7);
 			System.out.println(arl6);
+			*/
+			
+			// Q. How to compare two list and find additional element from list -
+			// removeAll()
+			ArrayList<String> arl9 = new ArrayList<String>(Arrays.asList("A", "B", "C", "D", "F"));
+			ArrayList<String> arl10= new ArrayList<String>(Arrays.asList("A", "B", "C", "D", "E"));
+
+			/*arl9.removeAll(arl10); 
+			System.out.println(arl9);
+			 
+			// Q. How to compare two list and find missing element from list - removeAll()
+			
+			arl10.removeAll(arl9); 
+			System.out.println(arl10);
+			
+			
+			// 8.d removeIf
+			ArrayList<Integer> arl11 = new ArrayList<Integer>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
+			
+			 arl11.removeIf(xy -> xy%2!=0);
+
+			System.out.println(arl11);
+			*/
+			
+			// 9.a retainAll() - Singleton
+
+			ArrayList<String> arl12 = new ArrayList<String>(
+					Arrays.asList("Sid", "Akshay", "Arjun", "Akshay", "Varun", "Akshay"));
+			
+			/*
+			
+			 arl12.retainAll(Collections.singleton("Akshay"));
+			
+			  System.out.println(arl12);
+			  
+			  System.out.println(arl12.size());
 			
 
+			// 9.b retainAll() -- List
+			// How to compare and find common element - retainAll()
+
+			 arl9.retainAll(arl10);
+
+			 System.out.println(arl9); 
+			 
+			// 10. Sublist()
+
+			 ArrayList<Integer> arl20 = new ArrayList<Integer>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
+			 
+				  ArrayList<Integer> arl14 = new ArrayList<Integer>(arl20.subList(2, 7));
+				  
+				  
+				  System.out.println(arl14);
+				 
+				// 10. subList with clear
+			ArrayList<Integer> arl20 = new ArrayList<Integer>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10));
+				
+				  arl20.subList(2, 7).clear();
+				  System.out.println(arl20);
+				 
+
+				// 11. toArray()
+
+				
+				  Object arr[] = arl20.toArray();
+				  
+				  for(Object o:arr) { 
+					  System.out.println(o); 
+					  }
+				 
+				// 12. How to remove duplicate elements from list
+					ArrayList<Integer> arl21 = new ArrayList<Integer>(
+							Arrays.asList(1, 1, 2, 2, 3, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7, 7, 7, 8, 8, 9, 10));
+					 for(Integer p:arl21) { 
+						  System.out.println(p); 
+						  }
+					LinkedHashSet<Integer> removeDuplicate = new LinkedHashSet<Integer>(arl21);
+
+					
+					  ArrayList<Integer> arl13= new ArrayList<Integer>(removeDuplicate);
+					  System.out.println("***********************************************");
+					  for(Integer p:arl13) { 
+						  System.out.println(p); 
+						  }
+					 	  
+					// 13. sort and compare
+
+						ArrayList<String> arrl14 = new ArrayList<String>(Arrays.asList("A", "B", "C", "D", "F"));
+						ArrayList<String> arrl15 = new ArrayList<String>(Arrays.asList("A", "B", "C", "D", "E"));
+						ArrayList<String> arrl16 = new ArrayList<String>(Arrays.asList("B", "A", "C", "D", "F"));
+
+						Collections.sort(arrl14);
+						Collections.sort(arrl15);
+						Collections.sort(arrl16);
+						
+						System.out.println(arrl14.equals(arrl15));
+
+						System.out.println(arrl14.equals(arrl16));
+						
+						*/
+						
+						
+						// Traverse 
+			ArrayList<String> arrl14 = new ArrayList<String>(Arrays.asList("A", "B", "C", "D", "F"));	
+						// 1. Traditional For Loop
+						
+						for(int i=0;i<arrl14.size();i++) {
+							
+							System.out.println(arrl14.get(i));
+						}
+						
+						// 2. For Each Loop
+						
+						for(String temporary:arrl14) {
+							
+							System.out.println(temporary);
+						}
+						// 3. For Each using Lambda Expression
+						
+						arrl14.forEach(tem -> System.out.println(tem));
+						
+						// 4. While Loop and Iterator
+						
+						Iterator<String> itr= arrl14.iterator();
+						
+						while(itr.hasNext()) {
+							
+							System.out.println(itr.next());
+							
+						}
+						
+						
+						
 	}
 
 }
