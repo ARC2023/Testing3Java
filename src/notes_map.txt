@@ -1,0 +1,13 @@
+1. There is no ordering and indexing in HashMap but rather it uniquely creates a key value pair 
+   format for storing data
+2. No duplicate key allowed if tried to do so then while printing you will get the latest value 
+   and no exception
+3. In map we use put method to store data for key and value
+4. To retrieve data from map we use get method and pass the key to get value
+5. If you try to access a key which is not present in map it will give you null
+6. Allows n number of null values but only one null key
+7. HashMap is not Thread Safe/Synchronize
+8. Remove method is to delete any single entry from map and clear is used to delete whole value and key in map
+9. Two maps can be compared based on key, value and/or both
+10. Unlike list in map while comparing order doesn't matter so we don't need to used sort
+11. How to find extra key from two maps?
