@@ -17,8 +17,7 @@ public class ForLoopTraditional {
 		}
 		
 		
-		for(String temp:str) {
-			
+		for(String temp:str) {			
 			
 			if(temp.equalsIgnoreCase("Onisha")) {
 				System.out.println("Salary increment");
