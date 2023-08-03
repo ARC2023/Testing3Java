@@ -10,7 +10,7 @@ Type of Polymorphism
     parameter/argument within same class
  b. Or Same method and Different Signature - In same class we have multiple methods with same name
     but different method signature	 
- c. You cannot create a method inside a method
+ c. You cannot create a method inside a method but you can call a method inside a method
  d. Duplicate method --> same method name and same number of argument not allowed
  e. Can we can overload main method in java? --> YES
  f. Can we achieve overloading by keeping method name and signature same and changing

@@ -9,7 +9,7 @@ public class MercedesBenz {
 	public MercedesBenz() {
 		System.out.println("Mercedes Benz Calling Part 1!!!!!");
 	}
-	private MercedesBenz(int a) {
+	MercedesBenz(int a) {
 		System.out.println("Mercedes Benz Calling Part 2!!!!!");
 	}
 	public MercedesBenz(int pin,int card,int amount) {

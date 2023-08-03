@@ -1,4 +1,5 @@
 Encapsulation: - 
+
 1. Data Binding / Wrapping data and methods in single Unit.
 2. Used to provide data security by hiding the data from outside world(Other classes)
    so that they are not directly accessible
@@ -11,5 +12,3 @@ Steps to incorporate encapsulation: -
 2. Always publicly accessible methods and force calling these code to use use these methods 
    instead of directly calling the instance variables
 3. Use naming conventions as get() and set() for these variables
-   
-     

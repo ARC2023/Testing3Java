@@ -17,16 +17,21 @@ public class SNS {
 		s2.pin = 5000;
 		System.out.println(s1.pin);
 		System.out.println(s2.pin);
+		System.out.println(pin);
 	}
 
 	public static void changePin() {
 		System.out.println(pin);
 		SNS.pin = 8888;
 		System.out.println(pin);
+		
 	}
 
 	
 	public void call() {
 		changePin();
+	}
+	public void caller() {
+		call();
 	}
 }

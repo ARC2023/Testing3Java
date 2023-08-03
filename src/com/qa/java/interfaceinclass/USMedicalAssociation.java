@@ -12,7 +12,8 @@ public interface USMedicalAssociation extends WHO{
 
 	public void Covid(String country);
 
-	// public static void Parkinsons(); // In Interface we cannot create static prototype method or called as abstract method
+	// public static void Parkinsons(); 
+	// In Interface we cannot create static prototype method or called as abstract method
    // public void Alziemer(){}; 
 	
 	

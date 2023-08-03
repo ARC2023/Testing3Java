@@ -31,6 +31,19 @@ public class CheckedExceptionDBConnection {
 		catch (ClassNotFoundException c) {
 			System.out.println(c.getMessage());
 		} 
+		finally {
+			
+			try {
+				con.close();
+				st.close();
+				rs.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+			
+		}
 
 	}
 

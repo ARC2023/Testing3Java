@@ -13,7 +13,6 @@ public interface UKMedicalAssociation extends WHO{
 	public void Covid(String country);
 	
 	
-	public UKMedicalAssociation() {
-		
-	}
+	public UKMedicalAssociation() {}
+	
 }

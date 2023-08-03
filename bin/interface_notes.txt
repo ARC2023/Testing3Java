@@ -20,8 +20,7 @@
 15. Interface variable are static and final by default even if we don't write static or final
 16. Since the variable are static and final by nature we cannot modify it
 17. Calling these variables by reference variable will show warning so instead we need to 
-    call this by interface name
-    
+    call this by interface name    
 18. From Java 1.8 / JDK 1.8 you can have static methods in Interface with method body and can't be overridden
 19. From Java 1.8 / JDK 1.8 you can have default methods in Interface with method body but that cannot be static and can't be overridden
 20. If we have one common prototype method in all interface we need to write that unimplemented method and within that method we have give business logic 

@@ -4,7 +4,6 @@ specific to that sub class.
 #Runtime Polymorphism / Late Binding / Dynamic Binding / Overriding
 
 #Method Overriding RULES: -
-1. Different classes with Inheritance applied 
 2. The Method name, Signature, Arguments and the return type must be same as 
    of superclass method.
 3. The access level can be changed but can't be decreased.

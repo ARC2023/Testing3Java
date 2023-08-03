@@ -8,8 +8,7 @@ inherit properties of child
   c. Multilevel
   d. Hybrid
   e. Hierarchical
-5. In java Inheritance can be applied at class level
-and interface level  
+5. In java Inheritance can be applied at class level and interface level  
  a. Class --> Class or Interface -->Interface then we use extends keywords 
  b. Class --> Interface then we use implements
  c. Interface --> Class this is not possible

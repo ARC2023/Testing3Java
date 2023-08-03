@@ -12,18 +12,18 @@
 1. add - To assign value to list
 2. addAll - To merge two array list
 3. addAll - With Index - Merges two array from mentioned index
-4. remove - 
+4. clear - To empty the Array List
+5. Clone - This method return an instance of ArrayList which we need to type cast and assign to a new ArrayList where we want to clone 
+6. contains - Checks and return true if the element is found in list (Parameter is single element)
+7. containsAll - return true if all the elements in one list is found in other list (Parameter is ArrayList)
+8. indexOf - return the index no of data stored in list
+9. LastIndexOf - Returns the index of the last occurrence of the specified element in this list or -1 if this list does not contain the element. 
+10.size - Returns the size of ArrayList
+11. remove - 
 	a. with index - Removes the element at the specified position in this list.Shifts any subsequent elements to the left (subtracts one from theirindices).
 	b. with object - Removes the first occurrence of the specified element from this list,if it is present. If the list does not contain the element, it is unchanged.
 	c. removeAll - Removes from this list all of its elements that are contained in the specified collection
 	d. removeIf - Removes all of the elements of this collection that satisfy the givenpredicate.
-5. clear - To empty the Array List
-6. Clone - This method return an instance of ArrayList which we need to type cast and assign to a new ArrayList where we want to clone
-7. contains - Checks and return true if the element is found in list (Parameter is single element)
-8. containsAll - return true if all the elements in one list is found in other list (Parameter is ArrayList)
-9. indexOf - return the index no of data stored in list
-10. LastIndexOf - Returns the index of the last occurrence of the specified element in this list or -1 if this list does not contain the element.
-11. size - Returns the size of ArrayList
 12. Arrays.asList() - To assign multiple value at one go by passing through constructor
 13. retainAll(Singleton and List) - Retains only the elements in this list that are contained in the specified collection. In other words, removes from this list allof its elements that are not contained in the specified collection.
 14. SubList - Returns a view of the portion of this list between the specified fromIndex, inclusive, and toIndex, exclusive. (If fromIndex and toIndex are equal, the returned list isempty.)

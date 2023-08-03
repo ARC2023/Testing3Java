@@ -10,8 +10,7 @@ public class TestingClass {
 		Apollo ap= new Apollo();
 		USMedicalAssociation us=  new Apollo();
 		UKMedicalAssociation uk= new Apollo();
-		IndianMedicalAssociation india= new Apollo();
-		
+		IndianMedicalAssociation india= new Apollo();		
 		USMedicalAssociation.Parkinsons();
 		
 		

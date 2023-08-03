@@ -6,16 +6,18 @@ public class RBE extends RBI {
 
 		RBE rbe = new RBE();
 
-		//System.out.println(rbe.getHomeLoanROI());
+		System.out.println(rbe.getHomeLoanROI());
 
-		RBI rrr= new RBE();		
-		
-		//System.out.println(rrr.getHomeLoanROI());
-		//rrr.getGoldLoanROI();
-		
-		
-		System.out.println(rbe.get());
-		
+		RBI rrr = new RBE();
+
+		System.out.println(rrr.getHomeLoanROI());
+		// rrr.getGoldLoanROI();
+		RBI rbi = new RBI();
+
+		System.out.println(rbi.getHomeLoanROI());
+
+		// System.out.println(rbe.get());
+
 	}
 
 	public double getHomeLoanROI() {
@@ -35,15 +37,17 @@ public class RBE extends RBI {
 		return 8;
 
 	}
+
 	public Integer getGoldLoanROI() {
 		return 8;
 
 	}
-	public static Number get() {
-		
-		System.out.println("Child Class Static method");
-		return 10;
+	/*
+	 * public static Number get() {
+	 * 
+	 * System.out.println("Child Class Static method"); return 10;
+	 * 
+	 * }
+	 */
 
-	}
-	
 }

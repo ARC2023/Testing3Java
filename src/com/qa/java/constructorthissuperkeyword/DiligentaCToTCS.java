@@ -12,6 +12,8 @@ public class DiligentaCToTCS extends TCSChildToTS{
 	
 	public static void main(String[] args) {
 		DiligentaCToTCS nh=new DiligentaCToTCS();
+		
+	
 	}
 	
 }
