@@ -24,7 +24,8 @@ public class SNS {
 		System.out.println(pin);
 		SNS.pin = 8888;
 		System.out.println(pin);
-		
+		call();
+		changePin();
 	}
 
 	

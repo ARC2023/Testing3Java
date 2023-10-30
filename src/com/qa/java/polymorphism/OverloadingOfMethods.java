@@ -3,11 +3,13 @@ package com.qa.java.polymorphism;
 public class OverloadingOfMethods {
 
 	public static void main(String[] args) {
+		System.out.println("Main main method");
 		OverloadingOfMethods o = new OverloadingOfMethods();
 		o.add();
 		o.add(2);
 		o.add(2, 4);
 		o.add(12, 34, "Priya");
+		
 	}
 
 	public static void main(String s) {

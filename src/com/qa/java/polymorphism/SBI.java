@@ -75,7 +75,40 @@ public class SBI {
 	
 	}
 	
+	public void login(int number, String password) {
+
+	}
+
+	public void login(String userName, String password) {
+
+	}
+
+	public String login(String userName, String password) {
+
+		return userName;
+	}
+	public String getOTP(int mobileno) {
+
+		return "OTP";
+
+	}
 	
+	public String getOTP(int cellno) {
+
+		return "OTP";
+
+	}
+	public static void main(String s) {
+
+	}
+
+	public static void main(String s, int b) {
+
+	}
+	public static void main(String[] args,String[] q) {
+		
+	}
+
 	
 	
 	

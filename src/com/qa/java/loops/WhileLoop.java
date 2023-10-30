@@ -6,6 +6,7 @@ public class WhileLoop {
 		
 		int i=0;
 		int j=0;
+		
 		while(i<=10) {
 			i++;
 			System.out.println(i);
