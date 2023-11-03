@@ -18,10 +18,12 @@ inherit properties of child
 	a. Single
 	b. Multilevel
 	c. Hierarchical
+	d. Hybrid
 8. Interface: -
     a. Single
 	b. Multilevel
 	c. Hierarchical
 	d. Multiple
+	e. Hybrid
 
  
